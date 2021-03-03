@@ -1,0 +1,3 @@
+[submodule "KiCADSymbols"]
+	path = KiCADSymbols
+	url = https://github.com/lombo-cmyk/KiCADSymbols
