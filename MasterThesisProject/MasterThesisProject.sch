@@ -1400,4 +1400,89 @@ F 3 "" H 1800 4550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1800 4550 1800 4450
+$Comp
+L Connector:Conn_01x07_Male J?
+U 1 1 608ED61E
+P 2100 6550
+F 0 "J?" H 2208 7031 50  0000 C CNN
+F 1 "Conn_01x07_Male" H 2208 6940 50  0000 C CNN
+F 2 "" H 2100 6550 50  0001 C CNN
+F 3 "~" H 2100 6550 50  0001 C CNN
+	1    2100 6550
+	1    0    0    -1  
+$EndComp
+Text GLabel 4250 4500 0    50   Input ~ 0
+SPI_MOSI
+Text GLabel 4250 4400 0    50   Input ~ 0
+SPI_MISO
+Text GLabel 4250 4300 0    50   Input ~ 0
+SPI_CLK
+Text GLabel 6200 4500 2    50   Input ~ 0
+SPI_CS
+Wire Wire Line
+	4700 4300 4250 4300
+Wire Wire Line
+	4250 4400 4700 4400
+Wire Wire Line
+	4700 4500 4250 4500
+Wire Wire Line
+	6200 4500 6000 4500
+Text GLabel 6200 4300 2    50   Input ~ 0
+ETH_INT
+Wire Wire Line
+	6200 4300 6000 4300
+Wire Wire Line
+	2300 6250 2700 6250
+Wire Wire Line
+	2700 6250 2700 6100
+Wire Wire Line
+	2300 6850 2700 6850
+Wire Wire Line
+	2700 6850 2700 7000
+$Comp
+L power:GND #PWR?
+U 1 1 6095011A
+P 2700 7000
+F 0 "#PWR?" H 2700 6750 50  0001 C CNN
+F 1 "GND" H 2705 6827 50  0000 C CNN
+F 2 "" H 2700 7000 50  0001 C CNN
+F 3 "" H 2700 7000 50  0001 C CNN
+	1    2700 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 60950EB2
+P 2700 6100
+F 0 "#PWR?" H 2700 5950 50  0001 C CNN
+F 1 "+3.3V" H 2715 6273 50  0000 C CNN
+F 2 "" H 2700 6100 50  0001 C CNN
+F 3 "" H 2700 6100 50  0001 C CNN
+	1    2700 6100
+	1    0    0    -1  
+$EndComp
+Text GLabel 2700 6350 2    50   Input ~ 0
+ETH_INT
+Text GLabel 2700 6450 2    50   Input ~ 0
+SPI_MISO
+Text GLabel 2700 6550 2    50   Input ~ 0
+SPI_MOSI
+Text GLabel 2700 6650 2    50   Input ~ 0
+SPI_CS
+Text GLabel 2700 6750 2    50   Input ~ 0
+SPI_CLK
+Wire Wire Line
+	2700 6350 2300 6350
+Wire Wire Line
+	2300 6450 2700 6450
+Wire Wire Line
+	2700 6550 2300 6550
+Wire Wire Line
+	2300 6650 2700 6650
+Wire Wire Line
+	2700 6750 2300 6750
+Wire Wire Line
+	4700 3900 4250 3900
+Text GLabel 4250 3900 0    50   Input ~ 0
+CO_SENSOR
 $EndSCHEMATC
