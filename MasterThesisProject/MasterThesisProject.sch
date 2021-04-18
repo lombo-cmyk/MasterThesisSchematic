@@ -313,7 +313,7 @@ Wire Wire Line
 Wire Wire Line
 	850  1450 1150 1450
 Wire Wire Line
-	650  1150 1150 1150
+	650  1150 1050 1150
 Wire Wire Line
 	650  2100 1150 2100
 Wire Wire Line
@@ -1498,4 +1498,33 @@ F 3 "~" H 9600 5500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9600 5650 9600 5850
+Wire Wire Line
+	3550 1000 3550 950 
+Wire Wire Line
+	1050 950  1050 1150
+Connection ~ 1050 1150
+Wire Wire Line
+	1050 1150 1150 1150
+$Comp
+L power:GND #PWR046
+U 1 1 607FD3F5
+P 850 950
+F 0 "#PWR046" H 850 700 50  0001 C CNN
+F 1 "GND" H 855 777 50  0000 C CNN
+F 2 "" H 850 950 50  0001 C CNN
+F 3 "" H 850 950 50  0001 C CNN
+	1    850  950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Barrel_Jack J2
+U 1 1 6080CABE
+P 950 650
+F 0 "J2" V 961 838 50  0000 L CNN
+F 1 "Barrel_Jack" V 1052 838 50  0000 L CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1000 610 50  0001 C CNN
+F 3 "~" H 1000 610 50  0001 C CNN
+	1    950  650 
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
