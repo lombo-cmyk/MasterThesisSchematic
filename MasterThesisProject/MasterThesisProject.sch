@@ -1527,4 +1527,17 @@ F 3 "~" H 1000 610 50  0001 C CNN
 	1    950  650 
 	0    1    1    0   
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 607EA17B
+P 4600 4600
+F 0 "#PWR?" H 4600 4350 50  0001 C CNN
+F 1 "GND" H 4605 4427 50  0000 C CNN
+F 2 "" H 4600 4600 50  0001 C CNN
+F 3 "" H 4600 4600 50  0001 C CNN
+	1    4600 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 4600 4600 4600
 $EndSCHEMATC
