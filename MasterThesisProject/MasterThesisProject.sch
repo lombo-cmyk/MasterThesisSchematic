@@ -1507,7 +1507,7 @@ U 1 1 6080CABE
 P 950 650
 F 0 "J2" V 961 838 50  0000 L CNN
 F 1 "Barrel_Jack" V 1052 838 50  0000 L CNN
-F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1000 610 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 1000 610 50  0001 C CNN
 F 3 "~" H 1000 610 50  0001 C CNN
 	1    950  650 
 	0    1    1    0   
