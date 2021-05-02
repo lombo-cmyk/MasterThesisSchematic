@@ -27,3 +27,7 @@ fp-info-cache
 
 # Generated Gerber Files
 Gerber/
+
+# BOM Files
+MasterThesisProject
+MasterThesisProject.xlxs
